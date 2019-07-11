@@ -281,6 +281,11 @@ h2 {
 
 @media only screen and (max-width: 880px) {
 
+	.serv-summary {
+		max-width: 85%;
+		margin: 30px auto 0;
+	}
+
 	.serv-main {
 		flex-direction: column;
 		align-items: center;
