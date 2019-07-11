@@ -260,10 +260,12 @@ h2 {
 	margin: 40px 0;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .facts-text {
 	width: 45%;
+	min-width: 396px;
 }
 
 .facts ul {
@@ -272,14 +274,29 @@ h2 {
 	list-style-position: inside;
 }
 
+.services-info-img {
+	max-height: 300px;
+	max-width: 420px;
+}
+
 @media only screen and (max-width: 880px) {
 
 	.serv-main {
-		justify-content: center;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.box6 {
 		margin-top: 40px;
+	}
+
+	.facts {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.facts-text {
+		margin-bottom: 40px;
 	}
 }
 
