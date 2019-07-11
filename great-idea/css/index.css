@@ -209,7 +209,7 @@ footer p {
 /* services.html */
 
 .serv-container {
-	width: 880px;
+	max-width: 880px;
 	margin: 0 auto;
 	line-height: 1.4;
 }
@@ -234,11 +234,10 @@ h2 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .serv-box {
-	width: 48%;
+	width: 420px;
 	height: auto;
 	border: 1px solid black;
 	background-color: #F4F4F4;
@@ -274,3 +273,16 @@ h2 {
 	line-height: 2;
 	list-style-position: inside;
 }
+
+@media only screen and (max-width: 880px) {
+
+	.serv-main {
+		justify-content: center;
+	}
+
+	.box6 {
+		margin-top: 40px;
+	}
+}
+
+
