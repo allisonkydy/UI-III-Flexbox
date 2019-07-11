@@ -286,17 +286,22 @@ h2 {
 		align-items: center;
 	}
 
+	.serv-box {
+		width: 85%;
+	}
+
 	.box6 {
 		margin-top: 40px;
 	}
 
 	.facts {
-		flex-direction: column;
+		flex-direction: column-reverse;
 		align-items: center;
 	}
 
 	.facts-text {
-		margin-bottom: 40px;
+		margin-top: 40px;
+		width: 85%;
 	}
 }
 
