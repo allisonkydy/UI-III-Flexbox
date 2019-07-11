@@ -281,6 +281,16 @@ h2 {
 
 @media only screen and (max-width: 880px) {
 
+	header {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+
+	header img {
+		margin-bottom: 20px;
+	}
+
 	.serv-summary {
 		max-width: 85%;
 		margin: 30px auto 0;
