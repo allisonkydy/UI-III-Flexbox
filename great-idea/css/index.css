@@ -272,5 +272,5 @@ h2 {
 .facts ul {
 	list-style-type: square;
 	line-height: 2;
-	margin-left: 20px;
+	list-style-position: inside;
 }
